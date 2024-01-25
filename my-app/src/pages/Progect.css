@@ -1,0 +1,60 @@
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 100px; /* Добавим расстояние между проектами */
+  margin-top: 300px;
+}
+
+.project {
+  width: calc(33.33% - 20px); /* Ширина проекта, учитывая промежуток между ними */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+.project-details {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 0 0 8px 8px;
+}
+
+.project-details h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.project-details p {
+  color: #666;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ff69b4;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #d94086;
+}

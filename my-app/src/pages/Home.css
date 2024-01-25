@@ -1,0 +1,36 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: pink; /* Розовый фон */
+    height: 100vh; /* Задайте высоту по желанию */
+}
+
+.image-blocks {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.image-block img {
+    width: 150px;
+    height: 150px;
+}
+
+.start-button {
+    padding: 15px 30px;
+    background-color: #ff4f8b; /* Розовый цвет для кнопки */
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+    background-color: #d13f6a; /* Изменение цвета при наведении */
+}
